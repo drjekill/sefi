@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>HMVC CI3 Bootstrap</title>
+        <title>Sefi Soft</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     </head>
     <body>
@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">HMVC CI3 Bootstrap</a>
+          <a class="navbar-brand" href="#">Administracion de Consorcios</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

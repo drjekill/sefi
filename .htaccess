@@ -1,7 +1,4 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /ci3/hmvc3blog/index.php/$1 [L]
-</IfModule>
+RewriteEngine on
+RewriteCond $1 !^(index\.php|upload|img|assets|fonts|files|images|docs|js|css|robots\.txt)
+#RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^(.*)$ ./index.php?/$1 [L]
